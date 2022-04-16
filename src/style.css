@@ -1,7 +1,49 @@
-img{
-    width: 100px;
-}
-html{
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-image: url(https://raw.githubusercontent.com/fireship-io/wavy-curvey-blobby-website/86203a00207c9aa686e4a96603d5887e5929a3e8/layer1.svg );
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(33, 23, 46);
     color: white;
+    margin: auto;
 }
+.cv-container{
+    margin: auto;
+    width: 70%;
+}
+ul{
+    
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.foto{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: transparent;
+    border-top: 4px solid yellow;
+    border-left: 4px solid yellow;
+    width: 200px;
+}
+.icono{
+    width: 50px;
+    border-radius: 50%;
+}
+button{
+    background-color: transparent;
+    border-radius: 50%;
+}
+.subtitle{
+    font-size: 20px;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(149, 0, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+/* .parrafo{
+    width: 500px;
+} */
